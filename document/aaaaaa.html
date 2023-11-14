@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nurunnisa</title>
+        <style>
+            *,*::before, *::after {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Nunito', sans-serif;
+                color:#384047;
+            }
+            form{
+                max-width: 300px;
+                margin: 10px auto;
+                padding: 10px 20px;
+                background: #f2f7f8;
+                border-radius: 8px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3>FORM PENDAFTARAN MAHASISWA BARU</h3>
+                <h4>Isikan data dengan lengkap</h4>
+
+                <fieldset>
+                    <input placeholder="Nama" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email" type="email" tabindex="2" required >
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Telp/HP" type="tel" tabindex="3" required >
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="....Sending">Kirim Pesan</button>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
